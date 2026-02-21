@@ -7,12 +7,26 @@ def load_raw_data(path: str) -> pd.DataFrame:
     return df
 
 
+def inspect_data(df: pd.DataFrame) -> None:
+    """Print useful inspection info."""
+    print("\n=== SHAPE ===")
+    print(df.shape)
+
+    print("\n=== COLUMNS ===")
+    print(df.columns.tolist())
+
+    print("\n=== DATA TYPES ===")
+    print(df.dtypes)
+
+    print("\n=== MISSING VALUES ===")
+    print(df.isnull().sum())
+
+    print("\n=== SAMPLE ROWS ===")
+    print(df.head())
+
+
 if __name__ == "__main__":
     path = "data/raw/CO2 emission by countries.csv"
     df = load_raw_data(path)
 
-    print("Shape:", df.shape)
-    print("\nColumns:")
-    print(df.columns)
-    print("\nPreview:")
-    print(df.head())
+    inspect_data(df)
