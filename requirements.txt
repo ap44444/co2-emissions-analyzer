@@ -1,9 +1,7 @@
-pandas
+streamlit==1.54.0
+pandas==2.3.3
 numpy
 matplotlib
 seaborn
-plotly
-streamlit
-requests
-beautifulsoup4
 scikit-learn
+altair==4.2.2
