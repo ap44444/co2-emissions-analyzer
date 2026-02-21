@@ -6,8 +6,7 @@ An interactive data science project exploring historical and modern carbon emiss
 
 ## Live Dashboard
 
-View the live app: https://your-app.streamlit.app
-(replace with your real link)
+View the live app: https://co2-emissions-analyzer.streamlit.app
 
 ---
 
@@ -15,7 +14,8 @@ View the live app: https://your-app.streamlit.app
 
 ### Main Dashboard
 
-![Dashboard Overview](outputs/figures/dashboard_overview.png)
+![Dashboard Overview](outputs/figures/dashboard_1.png)
+![Country View](outputs/figures/dashboard_2.png)
 
 ### Top Emitters
 
@@ -137,7 +137,7 @@ Concepts demonstrated:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/co2-emissions-analyzer.git
+git clone https://github.com/ap44444/co2-emissions-analyzer.git
 cd co2-emissions-analyzer
 ```
 
@@ -179,6 +179,7 @@ Potential extensions:
 ## Author
 
 Ananyaa Prabagar
+GitHub: https://github.com/ap44444
 
 If you found this project useful, consider starring the repository or connecting.
 
